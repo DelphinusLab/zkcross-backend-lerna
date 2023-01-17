@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="DelphinusLab" fetch="https://github.com/DelphinusLab" />
-  <default remote="DelphinusLab" revision="main" sync-j="4" />
+  <remote  name="zkcrossteam" fetch="." />
+  <default remote="zkcrossteam" revision="main" sync-j="4" />
 
   <project name="zkc-substrate-node" path="substrate-node">
   </project>
-  <project name="delphinus-monitors" path="monitors">
+  <project name="delphinus-monitors" path="monitors" remote="DelphinusLab">
   </project>
-  <project name="delphinus-solidity" path="solidity">
+  <project name="delphinus-solidity" path="solidity" remote="DelphinusLab">
   </project>
-  <project name="delphinus-deployment" path="deployment">
+  <project name="delphinus-deployment" path="deployment" remote="DelphinusLab">
   </project>
-  <project name="delphinus-zkp" path="zkp">
+  <project name="delphinus-zkp" path="zkp" remote="DelphinusLab">
   </project>
-  <project name="delphinus-curves" path="curves">
+  <project name="delphinus-curves" path="curves" remote="DelphinusLab">
   </project>
-  <project name="delphinus-web3subscriber" path="web3subscriber">
+  <project name="delphinus-web3subscriber" path="web3subscriber" remote="DelphinusLab">
   </project>
-  <project name="delphinus-crypto-rust" path="crypto-rust">
+  <project name="delphinus-crypto-rust" path="crypto-rust" remote="DelphinusLab">
   </project>
-  <project name="delphinus-l2-client-helper" path="l2-client-helper">
+  <project name="delphinus-l2-client-helper" path="l2-client-helper" remote="DelphinusLab">
   </project>
-  <project name="delphinus-slack-alert" path="slack-alert">
+  <project name="delphinus-slack-alert" path="slack-alert" remote="DelphinusLab">
   </project>
 </manifest>
