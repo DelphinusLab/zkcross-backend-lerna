@@ -1,7 +1,7 @@
 [ -d "./packages" ] || mkdir packages
 
 cd packages
-repo init -u git@github.com:zkcrossteam/zkcross-backend-lerna.git -b CROS-166 -m delphinus-backend.xml
+repo init -u git@github.com:zkcrossteam/zkcross-backend-lerna.git -b main -m delphinus-backend.xml
 repo sync
 cd -
 
