@@ -6,8 +6,8 @@
 
   <project name="zkc-substrate-node" path="substrate-node">
   </project>
-  <!-- <project name="delphinus-monitors" path="monitors" remote="DelphinusLab">
-  </project> -->
+  <project name="delphinus-monitors" path="monitors" remote="DelphinusLab">
+  </project>
   <project name="delphinus-solidity" path="solidity" remote="DelphinusLab">
   </project>
   <!-- <project name="delphinus-deployment" path="deployment" remote="DelphinusLab">
