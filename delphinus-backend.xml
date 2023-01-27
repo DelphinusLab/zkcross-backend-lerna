@@ -14,8 +14,8 @@
   </project> -->
   <!-- <project name="delphinus-zkp" path="zkp" remote="DelphinusLab">
   </project> -->
-  <!-- <project name="delphinus-curves" path="curves" remote="DelphinusLab">
-  </project> -->
+  <project name="delphinus-curves" path="curves" remote="DelphinusLab">
+  </project>
   <project name="delphinus-web3subscriber" path="web3subscriber" remote="DelphinusLab">
   </project>
   <project name="delphinus-crypto-rust" path="crypto-rust" remote="DelphinusLab">
