@@ -22,6 +22,6 @@
   </project>
   <project name="delphinus-l2-client-helper" path="l2-client-helper" remote="DelphinusLab">
   </project>
-  <!-- <project name="delphinus-slack-alert" path="slack-alert" remote="DelphinusLab">
-  </project> -->
+  <project name="delphinus-slack-alert" path="slack-alert" remote="DelphinusLab">
+  </project>
 </manifest>
