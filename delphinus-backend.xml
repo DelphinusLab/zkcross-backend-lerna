@@ -10,8 +10,8 @@
   </project> -->
   <project name="delphinus-solidity" path="solidity" remote="DelphinusLab">
   </project>
-  <project name="delphinus-deployment" path="deployment" remote="DelphinusLab">
-  </project>
+  <!-- <project name="delphinus-deployment" path="deployment" remote="DelphinusLab">
+  </project> -->
   <!-- <project name="delphinus-zkp" path="zkp" remote="DelphinusLab">
   </project> -->
   <!-- <project name="delphinus-curves" path="curves" remote="DelphinusLab">
