@@ -6,7 +6,7 @@
 
   <project name="zkc-substrate-node" path="substrate-node">
   </project>
-  <project name="delphinus-monitors" path="monitors" remote="DelphinusLab">
+  <!-- <project name="delphinus-monitors" path="monitors" remote="DelphinusLab">
   </project>
   <project name="delphinus-solidity" path="solidity" remote="DelphinusLab">
   </project>
@@ -23,5 +23,5 @@
   <project name="delphinus-l2-client-helper" path="l2-client-helper" remote="DelphinusLab">
   </project>
   <project name="delphinus-slack-alert" path="slack-alert" remote="DelphinusLab">
-  </project>
+  </project> -->
 </manifest>
