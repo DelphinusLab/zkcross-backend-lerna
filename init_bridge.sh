@@ -11,7 +11,6 @@ then
     npx truffle migrate --f 2 --to 2 --network goerli
     npx truffle migrate --f 2 --to 2 --network bsctestnet
     npx truffle migrate --f 2 --to 2 --network cantotestnet
-    npx truffle migrate --f 2 --to 2 --network rolluxtestnet
     cd -
 
     cd packages/solidity/clients/
@@ -22,7 +21,6 @@ then
     node init.js goerli
     node init.js bsctestnet
     node init.js cantotestnet
-    node init.js rolluxtestnet
     cd -
 
     touch initbridge.lock
